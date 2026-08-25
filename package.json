@@ -1,0 +1,38 @@
+{
+  "name": "govukos",
+  "version": "0.1.0",
+  "description": "A modern, accessible operating system interface inspired by UK Government Design System principles",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "node src/index.js",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "govuk",
+    "design-system",
+    "accessibility",
+    "os",
+    "interface",
+    "wcag"
+  ],
+  "author": "cyberdudeuk",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.45.0",
+    "jest": "^29.5.0",
+    "prettier": "^3.0.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.1.0"
+  },
+  "dependencies": {}
+}
